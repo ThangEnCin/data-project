@@ -1,0 +1,235 @@
+<!--Assignment.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Algorithmic Tenant – Data Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="book-wrapper">
+<header>
+  <h1 class="main-title">
+    📚 The Algorithmic Tenant<br>
+    <span class="subtitle">A Data Diary of Algorithmic Housing</span>
+  </h1>
+  <h2>Student Name: Thang En Cin | ID: w2158027</h2>
+</header>
+    <div class="book" id="book">
+
+<!-- Cover Page -->
+<div class="page" id="cover">
+  <div class="front cover-front">
+    <div class="cover-content">
+<h1 class="cover-title">
+  <img src="images/diary.png" alt="Diary Icon" class="cover-title-icon">
+  The Algorithmic Tenant
+</h1>
+      <h2 class="cover-subtitle">How Rightmove Collects, Profiles, and Shares My Data</h2>
+      <img src="images/rightmove_cover.png" alt="Cover Design" class="cover-image thumbnail" onclick="openImage(this)">
+      <p class="cover-student">Student Name: Thang</p>
+      <p class="cover-id">Student ID: w2158027</p>
+<p class="cover-course">
+  Course: Data in Communication
+  <span class="course-second-line">and Society</span>
+</p>
+      <p class="cover-date">Date: 17 November 2025</p>
+    </div>
+  </div>
+  <div class="back"></div>
+</div>
+
+
+      <!-- Merged Page 1: Core Idea & Theoretical Grounding -->
+      <div class="page" id="p1">
+        <div class="front">
+          <h2>The Core Idea & Real-Life Example</h2>
+          <p>When I use Rightmove, each small action—opening the site, searching for a postcode, adjusting filters—quietly produces data. What feels like a routine search for housing becomes a stream of information that the platform analyses to model my preferences and possible intentions. Over five days, I documented the traces I left behind and reflected on how these traces were used to categorise me as a potential tenant.</p>
+
+          <h2>Theoretical Grounding</h2>
+          <ul>
+            <li><strong>Datafication (van Dijck, 2014):</strong> Routine behaviours are translated into data points that gain value once processed.</li>
+            <li><strong>Algorithmic Identity (Cheney-Lippold, 2017):</strong> Platforms assemble users into flexible categories such as “likely renter” or “urban mover.”</li>
+            <li><strong>Surveillance Capitalism (Zuboff, 2019):</strong> Behavioural data is collected to anticipate future actions and monetise predictive insights.</li>
+            <li><strong>Social Sorting (Gandy, 1993):</strong> Data-driven categorisation produces differentiated access to services and opportunities.</li>
+          </ul>
+          <div class="page-number">1</div>
+        </div>
+        <div class="back"></div>
+      </div>
+
+<!-- Page 2: Day 1 -->
+<div class="page" id="p2">
+  <div class="front">
+    <h2>Day 1: Entering the Platform</h2>
+
+    <div class="img-wrap right">
+      <img src="images/rightmove_cookies.png" alt="Rightmove Cookie Banner" class="thumbnail" onclick="openImage(this)">
+      <p class="img-caption">Rightmove’s cookie banner displayed on first entry.</p>
+    </div>
+
+    <p><strong>Narrative:</strong> When I first arrived on Rightmove, a cookie banner immediately appeared. Accepting it allowed the platform to activate analytics and tracking scripts linked to identifiers such as <em>tcuid</em> or <em>_ga</em>. Even before searching, the site registered basic information about my device and location.</p>
+
+    <p><strong>Data Points:</strong> Cookie consent status, IP address, device type, visit time.</p>
+
+    <p><strong>Critical Reflection:</strong> This early moment already shows how little distance exists between simply accessing a service and contributing to surveillance-based business models. The “accept all” option works as a gateway to further data extraction, leaving little room for meaningful consent (Zuboff 2019; Sadowski 2019).</p>
+
+    <div class="page-number">2</div>
+  </div>
+  <div class="back"></div>
+</div>
+
+
+<!-- Page 3: Day 2 -->
+<div class="page" id="p3">
+  <div class="front">
+    <h2>Day 2: Searching and Profiling</h2>
+
+    <div class="img-wrap right">
+      <img src="images/rightmove_search.png" alt="Rightmove Search Results" class="thumbnail" onclick="openImage(this)">
+      <p class="img-caption">Search results influenced by my filters and activity.</p>
+    </div>
+
+    <p><strong>Narrative:</strong> Typing “SW16” into the search bar and applying filters quickly shaped the listings displayed to me. Cookies such as <em>lastSearchChannel</em> stored this activity, and the platform remembered what I had looked for. I noticed the interface subtly directing me toward certain properties through highlighted or “featured” listings.</p>
+
+    <p><strong>Data Points:</strong> Search queries, filters, session logs, navigation patterns.</p>
+
+    <p><strong>Critical Reflection:</strong> These interactions feed the system’s image of who I might be. My preferences—real or assumed—are folded into a recommendation loop that gradually narrows what is shown back to me. This aligns with Cheney-Lippold’s (2017) argument that algorithmic identities are built from probabilities rather than personal truths.</p>
+
+    <div class="page-number">3</div>
+  </div>
+  <div class="back"></div>
+</div>
+
+ <!-- Page 4: Day 3 -->
+<div class="page" id="p4">
+  <div class="front">
+    <h2>Day 3: Hidden Tracking and Cross-Platform Ads</h2>
+
+    <div class="page4-wrap right">
+      <div class="thumb-box">
+        <img src="images/rightmove_cookies_policy.png"
+             alt="Rightmove Cookie Policy"
+             class="thumbnail"
+             onclick="openImage(this)">
+        <p class="img-caption">Rightmove’s cookie policy listing analytics and ad partners.</p>
+      </div>
+
+      <div class="thumb-box">
+        <img src="images/facebook.png"
+             alt="Facebook Ad Example"
+             class="thumbnail"
+             onclick="openImage(this)">
+        <p class="img-caption">A Facebook ad promoting properties after my Rightmove searches.</p>
+      </div>
+    </div>
+
+    <p><strong>Narrative:</strong> Reading Rightmove’s cookie policy revealed a long list of trackers linked to advertising partners, including Google and Meta. Later, while browsing Facebook, I encountered property ads that mirrored my Rightmove searches almost exactly, suggesting that data from one platform had travelled elsewhere.</p>
+
+    <p><strong>Data Points:</strong> Analytics IDs, advertising cookies, cross-site tracking signals.</p>
+
+    <p><strong>Critical Reflection:</strong> This experience showed how data moves across platforms in ways that are rarely visible to users. What began as a private search for housing became input for a wider advertising ecosystem, illustrating how personal needs are repurposed for commercial prediction (Sadowski 2019; Srnicek 2017).</p>
+
+    <div class="page-number">4</div>
+  </div>
+  <div class="back"></div>
+</div>
+
+
+      <!-- Page 5: Day 4 -->
+      <div class="page" id="p5">
+        <div class="front">
+          <h2>Day 4: Privacy Control Test</h2>
+          <div class="img-wrap right">
+            <img src="images/rightmove_cookie_settings.png" alt="Cookie Settings" class="thumbnail" onclick="openImage(this)">
+            <p class="img-caption">Cookie settings window showing limited user control.</p>
+          </div>
+          <p><strong>Narrative:</strong> To test my level of control, I disabled all targeting cookies through the settings page and cleared my cache. When I repeated the same search, the results appeared unchanged, and the site continued collecting information through essential cookies.</p>
+          <p><strong>Data Points:</strong> Tracking preferences, remaining analytics cookies, repeated session data.</p>
+          <p><strong>Critical Reflection:</strong> The experiment highlighted the limits of platform consent tools. Although the settings suggested agency, the underlying data collection continued. Hintz et al. (2019) argue that such mechanisms often create an illusion of choice—a point confirmed by my own test.</p>
+          <div class="page-number">5</div>
+        </div>
+        <div class="back"></div>
+      </div>
+
+      <!-- Page 6: Day 5 -->
+      <div class="page" id="p6">
+        <div class="front">
+          <h2>Day 5: Reflection on Algorithmic Profiling</h2>
+          <div class="img-wrap left">
+            <img src="images/rightmove_summary.jpg" alt="Data Diary Summary" class="thumbnail" onclick="openImage(this)">
+            <p class="img-caption">Summary chart of my data trail and tracking flow.</p>
+          </div>
+          <p><strong>Narrative:</strong> After five days, a clear pattern emerged: my movements on the site were continuously recorded, interpreted, and circulated. My behaviour was turned into a profile with varying degrees of precision, depending on how the platform and its partners categorised my actions.</p>
+          <ul class="p6-indent">
+            <li>Behavioural data informed personalised recommendations.</li>
+            <li>Tracking cookies contributed to cross-platform advertising.</li>
+            <li>Opt-out mechanisms did little to restrict data flow.</li>
+          </ul>
+          <p><strong>Critical Reflection:</strong> What stands out is not only the volume of data collected but also how seamlessly these mechanisms operate. As Zuboff (2019) argues, prediction becomes most valuable when it is produced without interruption, which helps explain why opting out has so little effect.</p>
+          <div class="page-number">6</div>
+        </div>
+        <div class="back"></div>
+      </div>
+
+      <!-- Merged Page 7: Conclusion & Data Democracy -->
+      <div class="page" id="p7">
+        <div class="front">
+          <h2>Conclusion, Tenant Data Manifesto & Data, Algorithms & Democracy</h2>
+          <p>Data-driven housing platforms shape how users navigate the rental market and influence what forms of housing appear accessible. These systems can amplify inequalities through opaque sorting processes (Hintz et al. 2019; Srnicek 2017). To counter this, I propose a brief tenant data manifesto:</p>
+          <ul>
+            <li>Right to Understand Algorithmic Decisions</li>
+            <li>Meaningful Data Sovereignty and Portability</li>
+            <li>Transparency around Data-Sharing Practices</li>
+            <li>Fair and Inclusive Access to Listings</li>
+          </ul>
+          <p>Platforms like Rightmove act not only as search tools but also as intermediaries that shape digital participation and redefine what counts as legitimate user behaviour.</p>
+          <div class="page-number">7</div>
+        </div>
+        <div class="back"></div>
+      </div>
+
+<!-- Page 8: References -->
+<div class="page" id="p8">
+  <div class="front">
+    <div class="the-end-content">
+      <h2>References</h2>
+      <ul>
+        <li>Cheney-Lippold, J. (2017). <em>We are data: Algorithms and the making of our digital selves</em>. New York: NYU Press.</li>
+        <li>Hintz, A., Dencik, L., & Wahl-Jorgensen, K. (2019). <em>Digital citizenship in a datafied society</em>. Cambridge: Polity Press.</li>
+        <li>Kitchin, R. (2014). <em>The data revolution: Big data, open data, data infrastructures and their consequences</em>. Los Angeles: SAGE.</li>
+        <li>Srnicek, N. (2017). <em>Platform capitalism</em>. Cambridge: Polity Press.</li>
+        <li>Sadowski, J. (2019). When data is capital: Datafication, accumulation, and extraction. <em>Big Data & Society</em>, 6(1), 205395171882054.</li>
+        <li>Verdegem, P. (2025). <em>Understanding data, culture and society</em>. Los Angeles: Sage.</li>
+      </ul>
+
+      <h3>Generative AI Log</h3>
+      <p>
+        Tool: ChatGPT (GPT-5 Mini) | Purpose: Assistance with project structure, editing, and reference suggestions | Dates used: 12–15 Nov 2025 | Output: Guidance on references, in-text citations, and page layout.
+      </p>
+
+      <p class="signature">– Thang</p>
+    </div>
+    <div class="page-number">8</div>
+  </div>
+  <div class="back"></div>
+</div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="controls">
+      <button id="prevBtn">⬅ Previous</button>
+      <button id="nextBtn">Next ➡</button>
+    </div>
+  </div>
+
+  <!-- Image Popup -->
+  <div id="imageModal" class="modal" onclick="closeImage()">
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
